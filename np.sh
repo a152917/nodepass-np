@@ -17,3 +17,4 @@ chmod +x "$TARGET_DIR/np-dev" "$TARGET_DIR/np-stb"
 # 下载 np_local.sh 到当前目录
 curl -fsSL "$BASE_URL/np_local.sh" -o "./np_local.sh"
 chmod +x "./np_local.sh"
+bash ./np_local.sh
